@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body img {
+  width: 90%;
+  background-color: black;
+  padding: 5vh;
+}
+
+body h2 {
+  height: 15vh;
+  padding: 5vh;
+  width: 90%;
+  display: flex;
+  border: 1px solid;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  font-family: "Share Tech";
+  font-size: 250%;
+  color: white;
+}
