@@ -13,22 +13,33 @@
     <title>Nasa API</title>
   </head>
   <body>
-    <h2 class="title">Picture of the Day</h2>
-    <img
-      src="https://apod.nasa.gov/apod/image/2303/Doodad200mmAPOD.jpg"
-      alt=""
-    />
-    <h2 class="imageTitle" style="font-size: 150%">Picture Intresting</h2>
-    <p class="imageDesc"></p>
-    <h4 class="search"></h4>
-    <form action="" method="post">
-      <label for="title">Select a date</label>
-      <input type="date" name="dateSearch" id="" />
-      <button>Search</button>
-    </form>
-    <h4>Previous Searches</h4>
-    <ul>
-      <li>Date</li>
-    </ul>
+    <div class="m">
+      <h2 class="title" id="date">Picture of the Day</h2>
+      <div class="imgb">
+        <img
+          id="pic"
+          src="https://apod.nasa.gov/apod/image/2303/Doodad200mmAPOD.jpg"
+          alt=""
+        />
+      </div>
+
+      <h2 class="imageTitle" id="title" style="font-size: 150%; border: none">
+        Picture Intresting
+      </h2>
+      <p class="imageDesc" id="explanation">detailsjhjhjh</p>
+      <h4 class="search" style="height: 10vh; font-family: poppins">
+        Search for picture of the day
+      </h4>
+      <form action="" id="myform" onsubmit="return false">
+        <label for="title">Select a date</label>
+        <input type="date" name="dateSearch" id="dt" />
+        <button id="jj">Search</button>
+      </form>
+      <h4>Previous Searches</h4>
+      <ul>
+        <li>Date</li>
+      </ul>
+    </div>
   </body>
+  <script src="index.js"></script>
 </html>
